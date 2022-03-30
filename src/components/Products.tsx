@@ -10,7 +10,7 @@ const Container = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: auto;
+  max-width: 1240px;
   ${mobile({ width: "none" })}
 `;
 
